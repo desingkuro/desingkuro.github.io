@@ -211,7 +211,6 @@ footer{
     }
     .btn{
         height: 44px;
-        width: 260px;
     }
     .TextMensaje{
         width: 90%;
@@ -254,7 +253,7 @@ footer{
     }
 
 }
-@media (max-width:1204px){
+@media (max-width:600px){
     .btn{
         width: 100%;
     }
