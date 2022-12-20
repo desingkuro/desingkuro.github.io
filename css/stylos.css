@@ -253,7 +253,7 @@ footer{
     }
 
 }
-@media (max-width:500px){
+@media (max-width:800px){
     .btn{
         width: 100%;
     }
