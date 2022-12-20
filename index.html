@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylos.css">
+    <script defer src="js/index.js"></script>
+    <title>Encriptador De Mensajes</title>
+</head>
+<body>
+    <div class="body">
+        <div class="logo">
+            <img src="img/VectorlogoAlura.svg" alt="">
+        </div>
+        <main class="mensaje">
+            <textarea name="" id="TextMensaje" class="TextMensaje" cols="30" rows="18" autocomplete="off" placeholder="Ingrese el mensaje a encriptar"></textarea>
+            <div class="mensajeAlerta" ><img class="alerta" src="img/alerta.png" alt=""><p>Solo letras minusculas y sin acentos</p></div>
+            <div class="Btn-opcion">
+                <button id="encriptar" class="Encriptar btn">Encriptar</button>
+                <button id="desencriptar" class="Desencriptar btn">Desencriptar</button>
+                <button id="eliminar" class="Encriptar btn">Eliminar</button>
+            </div>
+        </main>
+        <section class="resultado" id="contenedor-resultado">
+            <h3 class="text-descripcion active" id="text-active">Ningún mensaje fue encontrado</h3>
+            <h5 class="text-descripcion active segundo" id="text-active">Ingresa el texto que desees encriptar o desencriptar</h5>
+            <img id="img-espera" src="img/espera.jpg" alt="">
+            <textarea  class="TextResultado textarea" name="" id="resultado" cols="30" rows="24" readonly></textarea>
+             <button id="copiar" class=" oculto">Copiar Mensaje <img height="15px" src="img/copia.png" alt="copiar"></button>
+        </section>
+    </div>
+    <footer>
+        <div class="container-info">
+            <h1 class="title">Andres Mauricio Licona Machado</h1>
+        <h2>Redes Sociales</h2>
+        <span>@anmalima60</span>
+        <div class="icon-container">
+            <div><a href="https://github.com/desingkuro"><img class="icon" src="img/github.png" alt=""></a></div>
+            <div><a href="https://twitter.com/anmalima60"><img class="icon" src="img/gorjeo.png" alt=""></a></div>
+            <div><a href="https://www.linkedin.com/in/andr%C3%A9s-licona-machado-1a633a244/?original_referer="><img class="icon" src="img/linkedin.png" alt=""></a></div>
+            <div><a href="https://www.instagram.com/desingkuro/"><img class="icon" src="img/instagram.png" alt=""></a></div>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
