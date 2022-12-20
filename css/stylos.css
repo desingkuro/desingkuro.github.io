@@ -211,6 +211,7 @@ footer{
     }
     .btn{
         height: 44px;
+        width: 260px;
     }
     .TextMensaje{
         width: 90%;
