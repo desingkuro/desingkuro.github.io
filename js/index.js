@@ -5,6 +5,7 @@ const desencriptar = document.getElementById("desencriptar");
 const eliminar = document.getElementById("eliminar");
 const copiar = document.getElementById("copiar");
 const imagen = document.getElementById("img-espera");
+const contenedor =document.getElementById("contenedor-resultado")
 
 /**
 La letra "e" es convertida para "enter"
@@ -19,8 +20,11 @@ function redimencion(){
         element.style.display="none";
     });  
     mensajeEn.classList.remove("textarea");
-    document.getElementById("contenedor-resultado").style.height="270px";
-    copiar.style.height="110px";
+    if(document.documentElement.clientWidth<= 1000){
+        contenedor.style.height="270px";
+        copiar.style.height="110px";
+    }
+    
 }
 
 
